@@ -1,3 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  
+}
+
 body{
-  color:rgb(131, 131, 131);
+  color:rgb(0, 0, 0);
+}
+
+#main {
+  background-color: aquamarine;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+.simple{
+  background-color: aqua;
+  width: 500px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+.fancy{
+  background-color: rgb(199, 0, 93);
+  width:500px;
+  margin: 20px auto;
+  padding: 50px;
+  border-width: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
